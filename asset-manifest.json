@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/faizadnan/ToDo_App/static/css/main.40a79967.css",
+    "main.js": "/faizadnan/ToDo_App/static/js/main.460ae839.js",
+    "index.html": "/faizadnan/ToDo_App/index.html",
+    "main.40a79967.css.map": "/faizadnan/ToDo_App/static/css/main.40a79967.css.map",
+    "main.460ae839.js.map": "/faizadnan/ToDo_App/static/js/main.460ae839.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.40a79967.css",
+    "static/js/main.460ae839.js"
+  ]
+}
