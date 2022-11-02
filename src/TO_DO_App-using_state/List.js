@@ -2,7 +2,9 @@
 
 import React, { useState, useEffect } from 'react'
 import "../To_Do_App/style.css"
+import Time from './Time/Time';
 // import  DeleteIcon from "@material-ui/icons/Delete";
+import image from "../TO_DO_App-using_state/Time/Capture.png"
 
 function getitems() {
     let items = localStorage.getItem("lists");
@@ -48,8 +50,17 @@ export default function List() {
     function tick(e){
         (e.target.parentElement.previousElementSibling.classList.add("tick"))
     }
+
+    
     return (
         <div className='todomaindiv'>
+
+        <div className="time">
+           <Time></Time>
+           
+          <h5>Hey!</h5>
+          
+        </div>
 
             <h1 className='my-4'>Got Stuffs? Save it here!</h1>
             <form onSubmit={onSubmitHandler}>

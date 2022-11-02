@@ -1,6 +1,7 @@
 
 
 .todomaindiv{
+    
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -9,9 +10,10 @@
     /* border: 1px solid red; */
     width: 100vw;
     margin: 0 auto;
-    background-color: rgb(85, 69, 69);
+    /* background-color: rgb(85, 69, 69); */
+    background-color: rgb(48,68,155,1);
     padding: 15px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     height: 100vh;
 }
 
@@ -23,7 +25,8 @@ h1{
 input{
     background-color: rgb(196, 182, 182);
     border: none;
-    width:300px;
+    width: 350px;
+  
     border-radius: 10px;
     height: 40px;
     padding: 0 10px;
@@ -35,7 +38,8 @@ input{
 }
 
 .listdiv{
-    background-color: rgb(74, 74, 102);
+    /* background-color: rgb(74, 74, 102); */
+    background: linear-gradient(40deg, #1A2980, rgb(59, 161, 161));
     border-radius: 10px;
     padding: 20px;
     color: white;
@@ -57,19 +61,12 @@ input{
     border-radius: 7px;
     /* font-style: italic; */
     /* font-family: serif; */
-    color: rgb(64, 240, 167);
+    /* color: rgb(64, 240, 167); */
+    color: wheat;
     font-weight: 500;
 }
 
-/* button{
-    border: none;
-    border-radius: 5px;
-    width: 70px;
-    background-color: rgb(64, 240, 167);
-    font-style: italic;
-    font-family: serif;
-    font-weight: 700;
-} */
+
 
 .icons{
     display: flex;
@@ -86,21 +83,51 @@ input{
 
 }
 
+.time{
+    /* border: 1px solid red; */
+    border-radius: 30px;
+    max-width: 500px;
+    width: 100%;
+    height: 40px;
+    /* background-color: rgb(161, 120, 120); */
+    display: flex;
+    font-weight: 500;
+    color: lightslategray;
+    justify-content: space-between;
+    padding: 0px 20px;
+    align-items: center ;
+    color: wheat;
+}
+
 span{
     overflow: hidden;
+    margin-left: 30px;
+}
+
+.avatardiv{
+    width: 50px;
+    /* height: 50px; */
+   
+}
+
+.avatardiv img{
+    width: 100%; border-radius: 50%;
 }
 
 @media screen and (max-width:500px) {
 
     input{
-        width: 250px;
+        
+       width: 300px;
+       max-width: 300px;
+       /* width: 100%; */
     }
     /* .todomaindiv{
         width: 90%;
     } */
 
     .listdiv{
-        width: 275px;
+        width: 309px;
     }
 
     h1{
