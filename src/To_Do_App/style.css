@@ -1,0 +1,110 @@
+
+
+.todomaindiv{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 40px;    */
+    /* border: 1px solid red; */
+    width: 100vw;
+    margin: 0 auto;
+    background-color: rgb(85, 69, 69);
+    padding: 15px;
+    border-radius: 10px;
+    height: 100vh;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+input{
+    background-color: rgb(196, 182, 182);
+    border: none;
+    width:300px;
+    border-radius: 10px;
+    height: 40px;
+    padding: 0 10px;
+    color: rgb(7, 7, 7);
+    /* font-style: italic; */
+    font-family: serif;
+    font-weight: 700;    
+
+}
+
+.listdiv{
+    background-color: rgb(74, 74, 102);
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    width: 300px;
+    text-align: center;
+    
+}
+
+.listdiv li{
+    list-style: none;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+    padding: 5px;
+    background-color: rgb(141, 93, 93);
+    border-radius: 7px;
+    /* font-style: italic; */
+    /* font-family: serif; */
+    color: rgb(64, 240, 167);
+    font-weight: 500;
+}
+
+/* button{
+    border: none;
+    border-radius: 5px;
+    width: 70px;
+    background-color: rgb(64, 240, 167);
+    font-style: italic;
+    font-family: serif;
+    font-weight: 700;
+} */
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.tick{
+    /* border: 1px solid red; */
+    text-decoration: line-through;
+    text-decoration-color: black;
+
+}
+
+span{
+    overflow: hidden;
+}
+
+@media screen and (max-width:500px) {
+
+    input{
+        width: 250px;
+    }
+    /* .todomaindiv{
+        width: 90%;
+    } */
+
+    .listdiv{
+        width: 275px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+    
+}
