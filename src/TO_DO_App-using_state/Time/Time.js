@@ -8,7 +8,7 @@ export default function Time() {
     let today = new Date()
     let date = today.getDate().toLocaleString();
     let year = today.getFullYear()
-    let month = today.getMonth()+1;
+    let month = today.getMonth();
     let monthName = monthNames[month];
 
 
